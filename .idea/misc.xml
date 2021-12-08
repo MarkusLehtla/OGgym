@@ -5,9 +5,10 @@
       <map>
         <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.36574074074074076" />
         <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/drawable/ic_launcher_background.xml" value="0.36574074074074076" />
-        <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1515625" />
+        <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/layout-w936dp/activity_login.xml" value="0.13465952563121653" />
         <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/markus.lehtla/AndroidStudioProjects/OGgym/app/src/main/res/layout/activity_qr.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
