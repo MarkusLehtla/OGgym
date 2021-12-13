@@ -2,15 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.oggym" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OGgym" >
+
+        android:theme="@style/Theme.OGgym"
+        >
         <activity
-            android:name=".ui.login.qr"
+            android:name=".ui.login.QRView"
             android:exported="false" />
         <activity
             android:name=".ui.login.LoginActivity"

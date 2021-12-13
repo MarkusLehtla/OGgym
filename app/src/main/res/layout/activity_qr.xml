@@ -9,9 +9,11 @@
 
     <ImageView
         android:id="@+id/qr_code"
-        android:layout_width="412dp"
-        android:layout_height="377dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:src="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="46dp" />
+        tools:ignore="ImageContrastCheck,ImageContrastCheck"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:contentDescription="TODO" />
 </android.support.constraint.ConstraintLayout>
