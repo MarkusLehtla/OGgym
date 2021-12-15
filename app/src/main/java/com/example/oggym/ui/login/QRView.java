@@ -1,10 +1,8 @@
 package com.example.oggym.ui.login;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -34,7 +32,7 @@ public class QRView extends AppCompatActivity {
     private void imageRequest () {
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="https://www.google.com/search?q=server&rlz=1C1GCEU_etEE969EE969&sxsrf=AOaemvJi5th9HDQj8CnmZ3eFEcy9M0EGaA:1639392168928&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjshYHfy-D0AhWRuYsKHdv0C3YQ_AUoAXoECAIQAw&biw=1280&bih=913&dpr=1#imgrc=iU5iO35HVH7ATM";
+        String url ="https://et.wikipedia.org/wiki/Server#/media/Fail:Serverarvuti.jpg";
         Toast.makeText(this,"Debug", Toast.LENGTH_LONG).show();
             // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
@@ -43,6 +41,7 @@ public class QRView extends AppCompatActivity {
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
                         Log.e("Response is: ", response.substring(0,500));
+                        callback.onSuccess(response);
 
                     }
                 }, new Response.ErrorListener() {
