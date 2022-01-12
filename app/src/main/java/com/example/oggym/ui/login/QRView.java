@@ -41,7 +41,7 @@ public class QRView extends AppCompatActivity {
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
                         Log.e("Response is: ", response.substring(0,500));
-                        callback.onSuccess(response);
+                        //callback.onSuccess(response);
 
                     }
                 }, new Response.ErrorListener() {
